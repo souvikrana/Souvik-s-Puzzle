@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15 Puzzle</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JAVASCRIPT/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f785f8766d.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+
+</head>
+
+<body>
+    <nav class="navg">
+        <h1>15 PUZZLE</h1>
+    </nav>
+
+    <div class="container">
+        <div class="left">
+            <div class="move1">
+                <span id="moveText">Time</span>
+
+                <span class="timeshow" id="timeShow">10</span>
+            </div>
+
+            <div class="outer circle">
+                <button id="musicbtn" onclick="musicnav()">Off</button>
+                <span></span>
+                <span></span>
+            </div>
+
+
+        </div>
+        <div class="grid glow">
+            <table id="table">
+            </table>
+        </div>
+        <div class="right" id="rightid">
+            <div class="move1">
+                <span id="moveText">Moves</span>
+                <span id="moves">0</span>
+            </div>
+
+            <div class="outer circle">
+                <button id="musicbtn1" onclick="musicnav2()">Off</button>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <div class="newcontainer">
+
+        <div class="outer button start" id="newGame" value="Start New Game">
+            <button>Start</button>
+            <span></span>
+            <span></span>
+        </div>
+
+    </div>
+
+    <div class="formedia">
+        <div class="texts">
+            <div class="move1">
+                <span id="moveText">Time</span>
+
+                <span class="timeshow" id="timeShowmed">0</span>
+            </div>
+            <div class="move1">
+                <span id="moveText">Moves</span>
+                <span id="movesmed">0</span>
+            </div>
+
+        </div>
+        <div class="togglebuttons">
+            <div class="outer circle">
+                <button id="musicbtnmed" onclick="musicnav()">Off</button>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="outer circle">
+                <button id="musicbtn1med" onclick="musicnav2()">Off</button>
+                <span></span>
+                <span></span>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="ruleBoard">
+        <div class="rules">
+            <h2>Rules</h2>
+            <div class="rulelist">
+                <li>There are 16 box and 15 tiles numbering 1 to 15</li>
+                <br>
+                <li>One box is blank</li>
+                <br>
+                <li>You can move tile, which is adjascent to blank box </li>
+                <br>
+                <li>That tile will move to the blank space</li>
+                <br>
+                <li>The initial position of tile will be blank</li>
+                <br>
+                <li>In this way you have to arrange the Puzzle</li>
+                <br>
+                <li>Till all tiles are in ordered manner</li>
+                <br>
+                <li>Time and moves-count will be recorded</li>
+                <br>
+                
+
+            </div>
+
+        </div>
+        <!-- <div class="board"></div> -->
+    </div>
+    <div id="footer" class="footer">
+        <div class="upper">
+            <div class="social">
+                <span>15 PUZZLE</span>
+                <p>Developed by Souvik Rana</p>
+                <div class="icon">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="lower">
+        <span>Copyright &#169; 2021 15 Puzzle Game</span>
+        <a href="" target="_blank">Privacy Policy</a>
+
+    </div>
+    </div>
+
+</body>
+
+</html>
+
+</html>
